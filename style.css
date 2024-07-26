@@ -16,7 +16,7 @@ body {
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     margin: 40px auto;
     border-radius: 10px;
-    background-color: #cbcdce;
+    background-color: #d1dfd7;
     display: flex;
 }
 
@@ -28,7 +28,9 @@ section {
 .sidebar {
     width: 70%;
     height: 95%;
-    background-color: #04072e;
+    background: linear-gradient(0deg, rgba(16, 41, 51, 0.788) 0%, rgba(18, 22, 29, 0.87) 100%), url(https://images3.alphacoders.com/134/thumb-350-1347726.webp) no-repeat;
+    background-size: cover;
+    /* background-color: #04072e; */
     margin-left: 35px;
     border-radius: 10px;
     color: rgb(255, 255, 255);
@@ -41,7 +43,7 @@ section {
     padding-left: 50px;
     padding-top: 30px;
     font-weight: 600;
-    color: #0ee02a;
+    color: #00fff5;
 }
 
 .tagline {
@@ -62,7 +64,7 @@ section {
 .box {
     width: 75%;
     height: 20%;
-    background-color:  #03043d;
+    background-color: #011118;
     margin-left: 50px;
     margin-top: 120px;
 }
@@ -186,12 +188,12 @@ button{
     width: 200px;
     height: 45px;
     font-weight: 600;
-    background-color: #0ee02a;
+    background-color: #102933;
     border-radius: 20px;
     color: white;
     border: none;
 }
 button:hover{
-    box-shadow: #0ee02a60 0px 7px 29px 0px;
-    background-color: #05af1c;
+    box-shadow: #10293307 0px 7px 29px 0px;
+    background-color: #184455;
 }
